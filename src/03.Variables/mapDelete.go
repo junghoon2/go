@@ -9,6 +9,8 @@ func main() {
 		"Kayla": "06/24/1975",
 	}
 
+	delete(birthdays, "Keith")
+
 	fmt.Println(birthdays)
 
 	ages := map[string]int{}
@@ -16,5 +18,5 @@ func main() {
 	ages["Kevin"] = 61
 	ages["Kayla"] = 43
 
-	fmt.Println(ages, ages["Kevin"])
+	fmt.Println(ages["Kevin"])
 }

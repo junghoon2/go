@@ -3,14 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	// names := [3]string{"Keith", "Kevin", "Kayla"}
-	// names := [3]string
-	// var cars [3]string
-
-	// cars[0] = "Sonata"
-	// cars[1] = "Grandeur"
-	// // cars[2] = "Avante"
-
 	// cars := []string{}
 	// cars = append(cars, "C Series")
 	// cars = append(cars, "E Series", "S Series", "M Series")
